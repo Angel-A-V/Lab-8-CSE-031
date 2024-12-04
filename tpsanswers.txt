@@ -1,0 +1,48 @@
+TPS 1:
+	Angel Vargas
+
+	1.	Done in fib.s
+	
+	2.	Done in fib.s
+	
+	3.	Done in fib.s
+
+	4.	Done in fib.s
+	
+	5.	No we don't need to decalre n in the .data section anymore because the user input. The rest is don in fib.s
+	
+	6.	Done in fib.s
+
+
+TPS 2: 
+	1. 	The output of the program should be 29, and when running the C program the value that is outputted in the terminal is 29.
+
+	2.	Done using MARS
+
+	3.	Done in recursion.s
+
+	4.	Done in recursion.s
+
+	5.	The current implementation stores the return value from the recursion function in $v0. To print this value, it must first be moved to $a0, as the $v0 register will be reused to set up the syscall for printing. Failing to do this will overwrite the return value stored in $v0
+
+	6.	Done in recursion.s
+
+	7.	The stack pointer was moved to create storage for three int values which is 12 bytes. The first this that should be stored in this stack is the return address.
+
+	8.	Under the label recursion, when $t0 (which is $a0 + 1) is equal to 0, the base case is reached, and the program should return the value of $a0.
+
+	9.	Done in recursion.s
+
+	10.	 When the input argument is not 0 or -1, the program will call recursion twice. We need to save $a0 into the stack because its value will be changed during the recursive calls, and we need to preserve the original value to use it in the second recursive cal
+
+	11.	Done in recursion.s
+	
+	12.	Done in recursion.s
+
+	13.	Done in recursion.s
+
+	14.	Done in recursion.s
+
+	15.	Done in recursion.s
+
+
